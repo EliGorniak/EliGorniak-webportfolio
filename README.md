@@ -1,2 +1,3 @@
 # EliGorniak
-My personal site
+My portfolio website.
+Underconstruction.
