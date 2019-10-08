@@ -63,7 +63,7 @@
     </div>
     <hr />
 
-    <!-- INTRO STARTS HERE -->
+    <!-- INTRO FINISH HERE -->
 
     <!-- ABOUT SECTION STARTS HERE -->
     <div class="jumbotron jumbotron-fluid">
@@ -116,6 +116,29 @@
         </div>
         <div class="col s12 m4">
           <div class="card">
+            <span class="card-title">Baby Names</span>
+            <div class="card-image">
+              <img src="img/tracktrek.png" />
+            </div>
+            <div class="card-content">
+              <p>
+                For newborn parents, this app will suggests names for babies
+                based on terms like smart, happy, brave etc. It uses Web
+                Scraping in order to get the names.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://babys-boats-brands.herokuapp.com/"
+                >Visit the App on Heroku</a
+              >
+              <a href="https://github.com/EliGorniak/Baby-Boat-Brands-App"
+                >Code on GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
             <span class="card-title">Word Guess Game</span>
             <div class="card-image">
               <img src="img/wordguessgame.png" />
@@ -157,6 +180,8 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="row">
         <div class="col s12 m4">
           <div class="card">
             <span class="card-title">Bamazon CLI App</span>
@@ -182,8 +207,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
         <div class="col s12 m4">
           <div class="card">
             <span class="card-title">Train Schedule</span>
@@ -268,7 +291,7 @@
           <form>
             <div class="container">
               <div class="form-group">
-                <label for="inputName">Name</label>
+                <label for="inputName"></label>
                 <input
                   type="text"
                   class="form-control"
@@ -278,22 +301,25 @@
               </div>
 
               <div class="form-group">
-                <label for="inputEmail">Email</label>
+                <label for="inputEmail"></label>
                 <input
                   type="email"
                   class="form-control"
                   id="exampleFormControlInput1"
-                  placeholder="name@example.com"
+                  placeholder="Your email"
                 />
               </div>
               <div class="form-group">
-                <label for="inputMessage">Message</label>
+                <label for="inputMessage"></label>
                 <input
                   type="text"
                   class="form-control"
                   id="inputAddress"
                   placeholder="Your Message"
                 />
+              </div>
+              <div>
+                <button type="submit" class="btn btn-secondary">Send</button>
               </div>
             </div>
           </form>
